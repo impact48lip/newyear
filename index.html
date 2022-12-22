@@ -94,7 +94,32 @@
             align-items: center;
             text-align: center;
             line-height: 50px;
-            text-shadow: 2px 2px 4px rgba(207, 150, 221, 1);
+            background-color: transparent;
+            z-index: 3;
+        }
+
+        .vit__text{
+            font-size: 30px;
+            font-weight: normal;
+        }
+
+        .vit__section{
+            background-image: url(https://img.championat.com/s/735x490/news/big/q/g/valve-raskryla-podrobnosti-novogo-iventa-diretide-v-dota-2_16670316541823531523.jpg);
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+            position: relative;
+        }
+
+        .vit__section::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: #f7f5f5;
+            opacity: 0.4;
         }
 
 
